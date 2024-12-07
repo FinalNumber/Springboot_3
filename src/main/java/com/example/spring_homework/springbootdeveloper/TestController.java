@@ -1,6 +1,5 @@
-package com.example.spring_homework.ch1;
+package com.example.spring_homework.springbootdeveloper;
 
-import lombok.Getter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

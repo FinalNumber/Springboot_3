@@ -1,4 +1,4 @@
-package com.example.spring_homework.ch1;
+package com.example.spring_homework.springbootdeveloper;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,7 +8,6 @@ import org.springframework.test.context.jdbc.Sql;
 import java.util.List;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 @DataJpaTest
 class MemberRepositoryTest {

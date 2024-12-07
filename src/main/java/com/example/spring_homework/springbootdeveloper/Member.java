@@ -1,4 +1,4 @@
-package com.example.spring_homework.ch1;
+package com.example.spring_homework.springbootdeveloper;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
