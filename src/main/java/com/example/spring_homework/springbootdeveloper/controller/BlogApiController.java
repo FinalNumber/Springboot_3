@@ -1,6 +1,8 @@
 package com.example.spring_homework.springbootdeveloper.controller;
 
 import com.example.spring_homework.springbootdeveloper.domain.Article;
+import com.example.spring_homework.springbootdeveloper.dto.AddArticleRequest;
+import com.example.spring_homework.springbootdeveloper.service.BlogService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
