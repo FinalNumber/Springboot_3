@@ -1,9 +1,10 @@
 package com.example.spring_homework.springbootdeveloper.service;
 
+import lombok.RequiredArgsConstructor;
 import com.example.spring_homework.springbootdeveloper.domain.Article;
 import com.example.spring_homework.springbootdeveloper.dto.AddArticleRequest;
+import com.example.spring_homework.springbootdeveloper.dto.UpdateArticleRequest;
 import com.example.spring_homework.springbootdeveloper.repository.BlogRepository;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -12,7 +13,6 @@ import java.util.List;
 @RequiredArgsConstructor
 @Service
 public class BlogService {
-
     private final BlogRepository blogRepository;
 
     public Article save(AddArticleRequest request) {
@@ -32,11 +32,11 @@ public class BlogService {
         blogRepository.deleteById(id);
     }
 
-    /*@Transactional
+    @Transactional
     public Article update(long id, UpdateArticleRequest request) {
         Article article = blogRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("not found: " + id));
         article.update(request.getTitle(), request.getContent());
         return article;
-    }*/
+    }
 }
