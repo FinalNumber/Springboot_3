@@ -1,3 +1,4 @@
+/*
 package com.example.spring_homework.springbootdeveloper.config;
 
 import com.example.spring_homework.springbootdeveloper.service.UserDetailService;
@@ -69,3 +70,4 @@ public class WebSecurityConfig {
         return new BCryptPasswordEncoder();
     }
 }
+*/
